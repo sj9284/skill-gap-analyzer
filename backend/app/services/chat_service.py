@@ -342,7 +342,7 @@ Answer:"""
 
     try:
         response = gemini_client.models.generate_content(
-            model="models/gemma-3-4b-it",
+            model="models/gemma-4-26b-a4b-it",
             contents=prompt
         )
         return response.text
